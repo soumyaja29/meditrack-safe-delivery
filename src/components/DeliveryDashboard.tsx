@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { DeliveryCard } from './DeliveryCard';
 import { CrossChainStatus } from './CrossChainStatus';
@@ -61,7 +60,7 @@ export const DeliveryDashboard = () => {
       paymentStatus: 'pending',
       estimatedDelivery: 'Dec 22, 2024'
     }
-  ];
+  ]);
 
   // Simulate real-time updates
   useEffect(() => {

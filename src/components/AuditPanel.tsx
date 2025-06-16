@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { FileCheck, Shield, Calendar, AlertTriangle } from 'lucide-react';
+import { FileCheck, Shield, Calendar, AlertTriangle, Clock } from 'lucide-react';
 
 export const AuditPanel = () => {
   const [selectedAudit, setSelectedAudit] = useState(null);
